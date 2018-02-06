@@ -1,0 +1,21 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMain {
+  display: flex;
+}
+
+.exerciseMainAside {
+  flex: 1;
+}
+
+.exerciseMain > *:first-child {
+  margin-right: 10px;
+}
+
+.exerciseMainContent {
+flex: 2;
+margin-right: 10px;
+}

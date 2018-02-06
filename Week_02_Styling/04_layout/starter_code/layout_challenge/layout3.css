@@ -1,0 +1,40 @@
+div p{
+  background: rgb(200,200,175)
+}
+
+/*Header and footer*/
+
+.headerStripe, .footerStripe {
+  width: 100%;
+  padding: 10px;
+}
+
+/*Two column*/
+
+.twoColumn {
+  width: 50%;
+  float:left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.twoStripe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Three column*/
+
+.threeStripe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.threeColumn {
+  width: 33%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
