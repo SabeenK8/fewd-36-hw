@@ -67,7 +67,7 @@ a {
   margin: 0 auto;
 }
 .ctabutton {
-  background: #ff0000;
+  background: #f9e42e;
   color: #033048;
 }
 .ctasignup {
@@ -114,6 +114,15 @@ a {
   background: #f9e42e;
   padding: 30px;
   text-align: center
+}
+
+.ctasignupbutton {
+    background-color: white;
+    display: block;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .pagefooter {
