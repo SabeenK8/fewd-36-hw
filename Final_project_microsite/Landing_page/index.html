@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Engage in interactive online learing in real time with other innovators.">
+
+		<title>Welcome to the CHMI Interactive Learning Hub</title>
+		
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		<link rel="stylesheet" href="../styles.css">
+	</head>
+
+<body>
+
+<header>
+<div class="container">
+<!-- Site header -->
+
+	<div class="row">
+		<img class="logoTagline" src="../Assets/chmilogotagline.jpg">
+
+		<nav class="navigation">
+			<ul class="main-nav horizontal-nav">
+				<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Programs</a></li>					
+				<li><a href="#">Add Program</a></li>
+				<li><a href="#">Topics</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="userSignedIn">
+		<p><a href="#">Sign up to use the Hub<a></p>
+	</div>
+
+</header>
+
+<!-- Hero -->
+	<section id="hero">
+		<div class="container col-lg-8 offset-lg-4 site-header clearfix">
+			<h2>Engage in interactive online learning in real time with other innovators.</h2>
+			<blockquote>We invite you to explore our newest feature. Collaborate with other innovators to solve your program's unique challenges, learn new approaches, and accelerate the uptake of your innovative practice.</blockquote>
+		</div>
+	</section>
+
+<!-- Video embed -->	
+	<section id="video">
+		<div class="container">
+			<iframe src="https://player.vimeo.com/video/107594655" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<p><a href="https://vimeo.com/107594655">The Center for Health Market Innovations: Creating Impact</a> from <a href="https://vimeo.com/chmi">CHMInnovations</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+		</div>
+	</section>
+
+<!-- Benefits -->
+	<section id="benefits">
+		<div class="container">
+			<p>Benefits and features</p>
+			<ul>
+				<li>Grow your global network by connecting with other health market innovators</li>
+				<li>Get specific problem solving support from experts and experienced entrepreneurs</li>
+				<li>Contribute to the collective effort of improving health systems around the world</li>
+			</ul>
+		</div>
+	</section>
+
+<!-- Form area -->
+<section id="body" class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <h1>Sign In</h1>
+
+   <!-- Nav tabs -->
+    <ul id="existingUser" class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Existing Users</a></li>
+
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">New Users</a></li>
+
+        <li role="presentation"><a href="#forgot" aria-controls="forgot" role="tab" data-toggle="tab">Forgot Password</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+    
+    <!-- Current users here -->       
+    <form method="post" id="login" class="form-horizontal loginForm">
+     <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        	<div class="col-sm-10">
+        		<input type="text" class="form-control" id="email" placeholder="Enter your email address">
+        	</div>
+     </div>
+      
+    <div class="form-group">
+        <label for="password" class="col-sm-2 control-label">Password</label>
+        	<div class="col-sm-10">
+        		<input type="text" class="form-control" id="password" placeholder="Enter your password">
+        	</div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" name="submit-btn" class="btn-primary btn">Sign in</button>
+        </div>
+    </div>
+
+</form>
+</div>
+
+
+
+    <div role="tabpanel" class="tab-pane" id="profile">
+
+<!-- New users here -->
+<form method="post" id="login" class="form-horizontal loginForm">
+
+     <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            	<div class="col-sm-10">
+            		<input type="text" class="form-control" id="email" placeholder="Enter your email address">
+            	</div>
+        </div>
+
+    <div class="form-group">
+            <label for="first" class="col-sm-2 control-label">Full Name</label>
+            	<div class="col-sm-4">
+            		<input type="text" name="firstName" class="form-control" id="first" placeholder="Enter your name">
+           	 	</div>
+    </div>
+
+    <div class="form-group">
+            <label for="last" name="password" class="col-sm-2 control-label">Password</label>
+            	<div class="col-sm-4">
+            		<input type="text" class="form-control" id="password" placeholder="Enter your password">
+            	</div>
+
+            <label for="last" name="confirmPassword" class="col-sm-2 control-label">Confirm password</label>
+           	 	<div class="col-sm-4">
+            		<input type="text" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+            	</div>
+    </div>  
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" name="submit-btn" class="btn-primary btn">Create account</button>
+        </div>
+    </div>
+
+</form>
+</div>
+
+<!-- Forgot password tab -->
+<div role="tabpanel" class="tab-pane" id="forgot">
+
+<!-- Forgot password page -->
+<form method="post" class="form-horizontal loginForm">
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Email</label>
+        	<div class="col-sm-10">
+        		<input type="text" name="email" placeholder="Enter your email" class="form-control">
+        	</div>
+    </div>
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" name="submit-btn" class="btn-primary btn">Reset my password</button>
+    </div>
+</div>
+
+</form>
+</div>
+
+<!-- CLOSE ALL TAB CONTENT -->
+</div>
+</div>
+</div>
+</section>
+
+		<footer>
+			<h4 class="logo">CHMI</h4>
+
+			<ul>
+				<a href="https://twitter.com/CHMInnovations"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.facebook.com/HealthMarketInnovations"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.linkedin.com/company/center-for-health-market-innovations/"><i class="fab fa-linkedin-in"></i></a>
+			</ul>
+
+			<p class="copyright">Copyright 2018. Results for Development.</p>
+		</footer>
+
+</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+/*Cohorts dashboard*/
+
+p.thread {
+	font-family: 'Roboto Slab', serif;
+}
+
+.headerBackground {
+	background-color: #404e66;
+}
+
+#discussionThreads > .row {
+	
+}
