@@ -1,11 +1,11 @@
 
 // Landing page
 
-// jQuery(document).ready(function(){
-//     jQuery('#').click(function (e) {
-//         e.preventDefault()
-//         jQuery().tab('show')
-//     })
+jQuery(document).ready(function(){
+    jQuery('#').click(function (e) {
+        e.preventDefault()
+        jQuery().tab('show')
+    });
 
 // Function to log completed forms
 
@@ -25,16 +25,11 @@
 
 // Function to show a lightbox to write a post for social sharing: LinkedIn
     
-// });
+
 
 
 // Cohorts dashboard
 
-// jQuery(document).ready(function(){
-//     jQuery('#').click(function (e) {
-//         e.preventDefault()
-//         jQuery().tab('show')
-//     })
 
 // Function to append full name in userSignedIn area
 
@@ -42,16 +37,10 @@
 
 // Function to notify users that search didn't find anything
 
-// });
 
 
 // Discussion thread
 
-// jQuery(document).ready(function(){
-//     jQuery('#').click(function (e) {
-//         e.preventDefault()
-//         jQuery().tab('show')
-//     })
 
 
 // Function to append full name in userSignedIn area
@@ -64,5 +53,5 @@
 
 // Function to show lightbox with email input for video learning
 
-// });
+});
 

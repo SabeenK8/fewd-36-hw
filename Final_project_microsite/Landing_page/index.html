@@ -8,12 +8,12 @@
 		
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="../reset.css">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="../index.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<link rel="stylesheet" href="../styles.css">
@@ -21,30 +21,36 @@
 
 <body>
 
-<header>
+<div class="headerBackground">
 <div class="container">
+
+
 <!-- Site header -->
+	<header class="row">
+		<div class="col-md-4">
+			<img class="logoTagline img-responsive" src="../Assets/chmilogotagline.jpg">
+		</div>
 
-	<div class="row">
-		<img class="logoTagline" src="../Assets/chmilogotagline.jpg">
-
+	<div class="col-md-6">
 		<nav class="navigation">
 			<ul class="main-nav horizontal-nav">
-				<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
 				<li><a href="#">About</a></li>
-				<li><a href="#">Programs</a></li>					
+				<li><a href="#">Programs</a></li>
 				<li><a href="#">Add Program</a></li>
 				<li><a href="#">Topics</a></li>
-				<li><a href="#">Blog</a></li>
+				<li><a href="#">Blog</a></li>					
 			</ul>
 		</nav>
 	</div>
 
-	<div class="userSignedIn">
-		<p><a href="#">Sign up to use the Hub<a></p>
+	<div class="col-md-2">
+		<div class="userSignedIn">
+			<img class="userIcon img-responsive col-md-4" src="../Assets/user.png"><p>Hello, user!</p>
+		</div>
 	</div>
-
-</header>
+	</header>
+</div>
+</div>
 
 <!-- Hero -->
 	<section id="hero">
@@ -111,9 +117,11 @@
 
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" name="submit-btn" class="btn-primary btn">Sign in</button>
+            <button type="submit" name="submit-btn" class="btn-primary btn"><a href="../Cohorts_dashboard/index.html">Sign in</a></button>
         </div>
     </div>
+
+
 
 </form>
 </div>
@@ -153,7 +161,7 @@
 
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" name="submit-btn" class="btn-primary btn">Create account</button>
+            <button type="submit" name="submit-btn" class="btn-primary btn"><a href="../Cohorts_dashboard/index.html">Create account</a></button>
         </div>
     </div>
 
@@ -187,17 +195,25 @@
 </div>
 </section>
 
-		<footer>
-			<h4 class="logo">CHMI</h4>
 
-			<ul>
-				<a href="https://twitter.com/CHMInnovations"><i class="fab fa-twitter"></i></a>
-				<a href="https://www.facebook.com/HealthMarketInnovations"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://www.linkedin.com/company/center-for-health-market-innovations/"><i class="fab fa-linkedin-in"></i></a>
-			</ul>
+<!-- Site footer -->
+<div class="footerBackground">
+	<div class="container">
+	<footer class="row">
+		<ul class="col-md-4">
+			<a href="https://twitter.com/CHMInnovations"><i class="fab fa-twitter" style="font-size:40px"></i></a>
+			<a href="https://www.facebook.com/HealthMarketInnovations"><i class="fab fa-facebook-f" style="font-size:40px"></i></a>
+			<a href="https://www.linkedin.com/company/center-for-health-market-innovations/"><i class="fab fa-linkedin-in" style="font-size:40px"></i></a>
+		</ul>
+		<p class="col-md-4">The Center for Health Market Innovations is managed by Results for Development. CHMI is funded by the Department for International Development United Kingdom (DFID), and the Bill & Melinda Gates Foundation.</p>
+	<a href="https://www.r4d.org/">
+		<img class="logoFooter img-responsive col-md-3" src="../Assets/r4dlogo.png">
+	</a>
+		<p class="col-md-4">Copyright 2018. Results for Development.</p>
+	</footer>
+</div>
+</div>
 
-			<p class="copyright">Copyright 2018. Results for Development.</p>
-		</footer>
 
 </div>
 	</body>

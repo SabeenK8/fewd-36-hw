@@ -8,12 +8,12 @@
 		
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="../reset.css">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="../index.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<link rel="stylesheet" href="../styles.css">
@@ -46,7 +46,7 @@
 
 	<div class="col-md-2">
 		<div class="userSignedIn">
-			<p>Hello, </p>
+			<img class="userIcon img-responsive col-md-4" src="../Assets/user.png"><p>Hello, user!</p>
 		</div>
 	</div>
 	</header>
@@ -61,42 +61,41 @@
 	<section class="row" id="topics">
 		<div class="col-md-12">
 		<h1>Join a Cohort</h1>
-				<ul class="topics">
-					<li><a href="#">Primary Health Care<a></li>
-					<li><a href="#">Maternal Newborn and Child Health</a></li>
-					<li><a href="#">Digital Health</a></li>
-					<li><a href="#">Mental Health</a></li>
-					<li><a href="#">Pharmacy Services</a></li>
-					<li><a href="#">Integrated Care</a></li>
-				</ul>
-	</div>
+			<ul class="topics">
+				<li><a href="#">Primary Health Care<a></li>
+				<li><a href="#">Maternal Newborn and Child Health</a></li>
+				<li><a href="#">Digital Health</a></li>
+				<li><a href="#">Mental Health</a></li>
+				<li><a href="#">Pharmacy Services</a></li>
+				<li><a href="#">Integrated Care</a></li>
+			</ul>
+		</div>
 	</section>
 
 <!-- Browse and search -->
 	<div class="searchFunctions row">
 		<div class="col-md-4">
-		<form>
-		  <p>Browse by region</p>
-		    <select name="regions">
-		        <option value="sAsia">South Asia</option>
-		        <option value="lAmerica">Latin America and the Caribbean</option>
-		        <option value="eAfrica">East Africa</option>
-		        <option value="sAfrica">South Africa</option>
-		        <option value="wAfrica">West Africa</option>
-		     </select>
-		</form>
-	</div>
+			<form>
+			  <p>Browse by region</p>
+			    <select name="regions">
+			        <option value="sAsia">South Asia</option>
+			        <option value="lAmerica">Latin America and the Caribbean</option>
+			        <option value="eAfrica">East Africa</option>
+			        <option value="sAfrica">South Africa</option>
+			        <option value="wAfrica">West Africa</option>
+			     </select>
+			</form>
+		</div>
 
 	<div class="col-md-8">
 		<form>
 			<div class="input-group">
-      <input id="searchbar" type="text" class="form-control" placeholder="Enter search...">
-      <span class="input-group-btn">
-        <button class="btn btn-primary" type="button">Go!</button>
-      </span>
-    </div><!-- /input-group -->
-
-		</form>
+      		<input id="searchbar" type="text" class="form-control" placeholder="Enter search...">
+      			<span class="input-group-btn">
+        		<button class="btn btn-primary" type="button">Go!</button>
+      			</span>
+    		</div><!-- /input-group -->
+    	</form>
 	</div>
 	</div>
 
@@ -118,110 +117,110 @@
 		<section id="discussionThreads">
 			<div class="thread row">
 				<div class="col-md-6">
-				<p class="thread"><a href="#">Mobile medical apps</a></p>
-
+					<p class="thread"><a href="../Discussion_thread/index.html">Mobile medical apps</a></p>
 				</div>
 				<div class="col-md-3">
-									<ul>
-					<li>Replies</li>
-					<li>Views</li>
-				</ul>
+					<ul>
+						<img class="replies img-responsive col-md-3" src="../Assets/replies.png"><li>Replies</li>
+						<img class="views img-responsive col-md-3" src="../Assets/views.png"><li>Views</li>
+					</ul>
 				</div>
 				<div class="col-md-3">
-					<p>Resources uploaded</p>
+					<img class="resources img-responsive col-md-3" src="../Assets/resources.png"><p>Resources uploaded</p>
 				</div>
-
-
-
 			</div>
+
 			<div class="thread row">
-
 				<div class="col-md-6">
-				<p class="thread"><a href="#">Micro insurance</a></p>
-
+					<p class="thread"><a href="#">Micro insurance</a></p>
 				</div>
 				<div class="col-md-3">
-									<ul>
-					<li>Replies</li>
-					<li>Views</li>
-				</ul>
+					<ul>
+						<img class="replies img-responsive col-md-3" src="../Assets/replies.png"><li>Replies</li>
+						<img class="views img-responsive col-md-3" src="../Assets/views.png"><li>Views</li>
+					</ul>
 				</div>
 				<div class="col-md-3">
-					<p>Resources uploaded</p>
+					<img class="resources img-responsive col-md-3" src="../Assets/resources.png"><p>Resources uploaded</p>
 				</div>
-
 			</div>
-			<div class="thread row">
 
+			<div class="thread row">
 				<div class="col-md-6">
-<p class="thread"><a href="#">Social franchising</a></p>
+					<p class="thread"><a href="#">Social franchising</a></p>
 				</div>
 				<div class="col-md-3">
-									<ul>
-					<li>Replies</li>
-					<li>Views</li>
-				</ul>
+					<ul>
+						<img class="replies img-responsive col-md-3" src="../Assets/replies.png"><li>Replies</li>
+						<img class="views img-responsive col-md-3" src="../Assets/views.png"><li>Views</li>
+					</ul>
 				</div>
 				<div class="col-md-3">
-					<p>Resources uploaded</p>
-				</div>
-								
-				
+					<img class="resources img-responsive col-md-3" src="../Assets/resources.png"><p>Resources uploaded</p>
+				</div>					
 			</div>
-			<div class="thread row">
 
+			<div class="thread row">
 				<div class="col-md-6">
-<p class="thread"><a href="#">Integrated care delivery</a></p>
-				
+					<p class="thread"><a href="#">Integrated care delivery</a></p>
 				</div>
 				<div class="col-md-3">
-									<ul>
-					<li>Replies</li>
-					<li>Views</li>
-				</ul>
+					<ul>
+						<img class="replies img-responsive col-md-3" src="../Assets/replies.png"><li>Replies</li>
+						<img class="views img-responsive col-md-3" src="../Assets/views.png"><li>Views</li>
+					</ul>
 				</div>
 				<div class="col-md-3">
-					<p>Resources uploaded</p>
+					<img class="resources img-responsive col-md-3" src="../Assets/resources.png"><p>Resources uploaded</p>
 				</div>				
-</div>
-						<div class="thread row">
-
+			</div>
+			
+			<div class="thread row">
 				<div class="col-md-6">
-<p class="thread"><a href="#">Practitioner expertise</a></p>
+					<p class="thread"><a href="#">Practitioner expertise</a></p>
 				</div>
 				<div class="col-md-3">
-									<ul>
-					<li>Replies</li>
-					<li>Views</li>
-				</ul>
+					<ul>
+						<img class="replies img-responsive col-md-3" src="../Assets/replies.png"><li>Replies</li>
+						<img class="views img-responsive col-md-3" src="../Assets/views.png"><li>Views</li>
+					</ul>
 				</div>
 				<div class="col-md-3">
-					<p>Resources uploaded</p>
-				</div>
-								
-				
+					<img class="resources img-responsive col-md-3" src="../Assets/resources.png"><p>Resources uploaded</p>
+				</div>	
 			</div>
 
 		</section>
 	</div>
 
 	<div class="end">
-		<p>You've reached the end!</p>
+		<div class="col-md-12">
+			<p>You've reached the end!</p>
+		</div>
 	</div>
 </main>
 
-<!-- Site footer -->
-	<footer>
-		<h4 class="logo">CHMI</h4>
-			<ul>
-				<a href="https://twitter.com/CHMInnovations"><i class="fab fa-twitter"></i></a>
-				<a href="https://www.facebook.com/HealthMarketInnovations"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://www.linkedin.com/company/center-for-health-market-innovations/"><i class="fab fa-linkedin-in"></i></a>
-			</ul>
-		<p class="copyright">Copyright 2018. Results for Development.</p>
-	</footer>
-
 </div>
+
+<!-- Site footer -->
+<div class="footerBackground">
+	<div class="container">
+	<footer class="row">
+		<ul class="col-md-4">
+			<a href="https://twitter.com/CHMInnovations"><i class="fab fa-twitter" style="font-size:40px"></i></a>
+			<a href="https://www.facebook.com/HealthMarketInnovations"><i class="fab fa-facebook-f" style="font-size:40px"></i></a>
+			<a href="https://www.linkedin.com/company/center-for-health-market-innovations/"><i class="fab fa-linkedin-in" style="font-size:40px"></i></a>
+		</ul>
+		<p class="col-md-4">The Center for Health Market Innovations is managed by Results for Development. CHMI is funded by the Department for International Development United Kingdom (DFID), and the Bill & Melinda Gates Foundation.</p>
+	<a href="https://www.r4d.org/">
+		<img class="logoFooter img-responsive col-md-3" src="../Assets/r4dlogo.png">
+	</a>
+		<p class="col-md-4">Copyright 2018. Results for Development.</p>
+	</footer>
+</div>
+</div>
+
+
 </body>
 </html>
 

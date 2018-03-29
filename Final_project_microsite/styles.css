@@ -24,6 +24,21 @@ h1 {
 	font-family: 'Roboto Slab', serif;
 }
 
+/*Site header*/
+
+.horizontal-nav > li {
+	display: inline-block;
+	font-size: 16px;
+	padding: 50px 20px;
+}
+
+.userSignedIn {
+	padding-top: 50px; 
+	padding-bottom: 20px;
+	color: white;
+	font-size: 16px;
+}
+
 /*Cohorts dashboard*/
 
 p.thread {
@@ -34,6 +49,63 @@ p.thread {
 	background-color: #404e66;
 }
 
+h1 {
+	padding: 20px;
+}
+
+#topics {
+	padding: 20px;
+}
+
+.searchFunctions {
+	padding: 20px 0 40px;
+}
+
 #discussionThreads > .row {
-	
+	border-bottom: 1px solid #043049;
+    padding-bottom: 40px;
+    margin-bottom: 40px
+}
+
+p.thread {
+	font-size: 18px;
+}
+
+
+.topics > li {
+	text-decoration: none;
+	display: inline;
+	padding: 25px;
+}
+
+.end {
+	text-align: center;
+	font-style: italic;
+	padding: 10px 0 60px;
+}
+
+/*Discussion thread*/
+
+.threadDetails > li {
+	text-decoration: none;
+	display: inline;
+}
+
+/*Site footer*/
+
+.footerBackground {
+	background-color: #404e66;
+}
+
+footer {
+	color: white;
+	padding: 50px;
+}
+
+footer > ul > a {
+	padding: 20px;
+}
+
+.logoFooter {
+	padding-bottom: 20px;
 }
