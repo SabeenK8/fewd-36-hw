@@ -4,7 +4,7 @@
     	<meta charset="utf-8">
     	<meta name="description" content="Engage in interactive online learing in real time with other innovators.">
 
-		<title>Mobile medical apps | The CHMI Interactive Learning Hub</title>
+		<title>Mobile medical apps | The CHMI Learning Hub</title>
 		
 
 		<!-- external CSS link -->
@@ -61,8 +61,8 @@
 		<div class="col-md-12">
 			<div class="breadcrumb">
 				<ul class="breadcrumb">
-					<li><a href="#">The CHMI Interactive Learning Hub</a></li>
-					<li><a href="#">Digital Health cohort</a></li>
+					<li><a href="../Landing_page/index.html">The CHMI Learning Hub</a></li>
+					<li><a href="../Cohorts_dashboard/index.html">Digital Health cohort</a></li>
 					<li>Mobile medical apps</li>
 				</ul>
 			</div>
@@ -81,9 +81,11 @@
 		</div>
 	</section>
 
-	<section id="mariam">
-		<div class="bio">
-			<img class="mariam img-responsive col-md-3" src="../Assets/mariam.png"><p>Mariam F.</p>
+	<div class="thread-list">
+		<section id="mariam" class="flex thread-card">
+		<div class="bio flex-col">
+			<img class="mariam img-responsive" src="../Assets/mariam.png">
+			<p>Mariam F.</p>
 			<p>Prague, Czech Republic</p>
 			<p>One day ago</p>
 		</div>
@@ -92,17 +94,15 @@
 			<ul>
 				<li>Welcome to this thread!</li>
 				<li>March 10, 2018</li>
-		</div>
-
-		<div class="body">
+			</ul>
 			<p>The FDA has published guidelines on mobile applications marketed as medical devices, especially those that advertise being HIPAA compliant.</p> 
 			<p>I run a program in northern Europe (Czech Republic) that reviews startup technologies for the health aware citizen. I was wondering if any of you have experience working with the FDA to have your app approved?</p>
 		</div>
 	</section>
 
-	<section id="ali">
-		<div class="bio">
-			<img class="ali img-responsive col-md-3" src="../Assets/ali.png"><p>Ali S.</p>
+	<section id="ali" class="flex thread-card">
+		<div class="bio flex-col">
+			<img class="ali img-responsive" src="../Assets/ali.png"><p>Ali S.</p>
 			<p>New York City, NY</p>
 			<p>Today</p>
 		</div>
@@ -111,11 +111,11 @@
 			<ul>
 				<li>FDA Guidelines implications on mHealth</li>
 				<li>March 17, 2018</li>
+				<p>Hi Mariam! Thanks for creating this thread. I have been in the mHealth market for several years now, and I can tell you that the FDA’s guidelines do not affect the performance of my technology. It is, however, important to take the brand messaging away from personal health management and more into tracking one’s health, though not for purposes of self diagnosis of automating treatment.</p>
+			<p>I am also interested to know who else has a reaction to the guidelines, and how their app is impacted?</p>
 		</div>
 
-		<div class="body">
-			<p>Hi Mariam! Thanks for creating this thread. I have been in the mHealth market for several years now, and I can tell you that the FDA’s guidelines do not affect the performance of my technology. It is, however, important to take the brand messaging away from personal health management and more into tracking one’s health, though not for purposes of self diagnosis of automating treatment.</p>
-			<p>I am also interested to know who else has a reaction to the guidelines, and how their app is impacted?</p>
+
 
 <!-- LIGHTBOX 
 
@@ -128,13 +128,15 @@ Sign up for news about this feature.
 
 Your email | Submit  
 Thank you! Check your email for confirmation.   -->
-
-		</div>
 	</section>
+	</div>
+
+
+	
 
 	<section id="reply">
-		<form>
- 		 <input type="text" name="typeReply" placeholder="Type your reply..."><br>	
+		<form name="replyBox">
+ 		 <textarea rows="4" cols="50" placeholder="Type your reply..."></textarea>
  		</form>
 	</section>
 

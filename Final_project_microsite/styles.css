@@ -20,8 +20,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Roboto Slab', serif;
+}
+
+/* Site Sections */
+
+section {
+	padding: 15px;
 }
 
 /*Site header*/
@@ -38,6 +44,10 @@ h1 {
 	color: white;
 	font-size: 16px;
 }
+
+/*Landing page*/
+
+
 
 /*Cohorts dashboard*/
 
@@ -91,6 +101,21 @@ p.thread {
 	display: inline;
 }
 
+.bio.flex-col {
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+}
+
+.thread-card {
+	border: 1px solid #e6e6e6;
+	align-items: center;
+}
+
+.thread-list .thread-card:not(:last-child) {
+	margin-bottom: 20px;
+}
+
 /*Site footer*/
 
 .footerBackground {
@@ -106,6 +131,79 @@ footer > ul > a {
 	padding: 20px;
 }
 
+ul.text-list > li {
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #484848;
+}
+
 .logoFooter {
 	padding-bottom: 20px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.padding-a-xs {
+	padding: 5px;
+}
+
+.padding-a-sm {
+	padding: 10px;
+}
+
+.padding-a-md {
+	padding: 20px;
+}
+
+.padding-a-lg {
+	padding: 40px;
+}
+
+.padding-t-xs {
+	padding-top: 5px;
+}
+
+.padding-t-sm {
+	padding-top: 10px;
+}
+
+.padding-t-md {
+	padding-top: 20px;
+}
+
+.padding-t-lg {
+	padding-top: 40px;
+}
+
+
+.padding-b-xs {
+	padding-bottom: 5px;
+}
+
+.padding-b-sm {
+	padding-bottom: 10px;
+}
+
+.padding-b-md {
+	padding-bottom: 20px;
+}
+
+.padding-b-lg {
+	padding-bottom: 40px;
+}
+
+.shadow {
+	box-shadow: 1px 1px 20px 3px #383d4626;
 }
