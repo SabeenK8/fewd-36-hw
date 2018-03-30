@@ -2,10 +2,12 @@
 // Landing page
 
 jQuery(document).ready(function(){
-    jQuery('#').click(function (e) {
+    jQuery('#hubExistingUser').click(function (e) {
         e.preventDefault()
         jQuery().tab('show')
     });
+
+
 
 // Function to log completed forms
 
