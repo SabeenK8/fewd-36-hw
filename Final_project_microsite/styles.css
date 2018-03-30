@@ -36,6 +36,7 @@ section {
 	display: inline-block;
 	font-size: 16px;
 	padding: 50px 20px;
+	color: #fff;
 }
 
 .userSignedIn {
@@ -49,9 +50,12 @@ section {
 
 button > a {
 	color: #fff;
+	font-size: 14px;
 }
 
-
+.btn-primary {
+	background-color: #2c84c6;
+}
 
 
 /*Cohorts dashboard*/
@@ -86,6 +90,18 @@ p.thread {
 	font-size: 18px;
 }
 
+.form-group {
+	padding-top: 20px;
+}
+
+.form-group .btn-primary {
+	font-weight: 700;
+}
+
+.form-group:last-child {
+	padding-bottom: 60px;
+}
+
 
 .topics > li {
 	text-decoration: none;
@@ -104,6 +120,7 @@ p.thread {
 .threadDetails > li {
 	text-decoration: none;
 	display: inline;
+	font-weight: 700;
 }
 
 .bio.flex-col {
