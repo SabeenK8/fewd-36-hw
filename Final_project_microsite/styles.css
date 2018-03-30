@@ -47,6 +47,11 @@ section {
 
 /*Landing page*/
 
+button > a {
+	color: #fff;
+}
+
+
 
 
 /*Cohorts dashboard*/
