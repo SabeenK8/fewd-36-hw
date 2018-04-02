@@ -38,8 +38,13 @@ section {
 	padding: 50px 20px;
 }
 
+.horizontal-nav > li > a:hover {
+	color: #de2156;
+}
+
 .horizontal-nav > li > a {
 	color: #fff;
+	text-decoration: none;
 }
 
 .userSignedIn {
@@ -156,6 +161,11 @@ footer > ul > a {
 	padding: 20px;
 }
 
+footer > ul > a:hover {
+	color: #de2156;
+	opacity: 0.8;
+}
+
 ul.text-list > li {
     font-size: 16px;
     margin-bottom: 14px;
@@ -179,6 +189,8 @@ ul.text-list > li {
 	justify-content: center;
 	align-items: center;
 }
+
+/*Responsive breakpoints */
 
 .padding-a-xs {
 	padding: 5px;
